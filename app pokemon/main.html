@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Battle</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <!-- skills charmander -->
+    <div id="box-pokemon-1-geral">
+        <div id="box-life-pokemon-1"> 
+            <div id="barra-vida-numero-pokemon-1"></div>
+            <div id="life-pokemon-1"></div>
+        </div>
+
+        <!-- <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png" alt="charmander"> -->
+        <div id="nome-pokemon-1"></div>
+
+        <div id="container-pokemon-1">
+            <div id="box-pokemon-1">
+                <button onclick="ataquePokemon1(0)" class="skills-pokemon-1" id="skill-1-pokemon-1"></button>
+                <button onclick="ataquePokemon1(1)" class="skills-pokemon-1" id="skill-2-pokemon-1"></button>
+            </div>
+            <div id="box-pokemon-1">
+                <button onclick="ataquePokemon1(2)" class="skills-pokemon-1" id="skill-3-pokemon-1"></button>
+                <button onclick="ataquePokemon1(3)" class="skills-pokemon-1"  id="skill-4-pokemon-1"></button>
+            </div>
+        </div>
+    </div>
+
+    <button id="select-pokemon" onclick="buscarPokemon()"> Select pokemon</button>
+
+    <!-- skills pikachu -->
+
+    <div id="box-pokemon-2-geral">
+        <div id="box-life-pokemon-2"> 
+            <div id="barra-vida-numero-pokemon-2"></div>
+            <div id="life-pokemon-2"></div>
+        </div>
+
+        <!-- <img src="https://sm.ign.com/t/ign_br/screenshot/default/025pikachu-os-anime-4_3pym.1200.png" alt="pikachu"> -->
+        <div id="nome-pokemon-2"></div>
+
+        <div id="container-pokemon-2">
+            <div id="box-pokemon-2">
+                <button onclick="ataquePokemon2(0)" class="skills-pokemon-2" id="skill-1-pokemon-2"></button>
+                <button onclick="ataquePokemon2(1)" class="skills-pokemon-2" id="skill-2-pokemon-2"></button>
+            </div>
+            <div id="box-pokemon-2">
+                <button onclick="ataquePokemon2(2)" class="skills-pokemon-2" id="skill-3-pokemon-2"></button>
+                <button onclick="ataquePokemon2(3)" class="skills-pokemon-2"  id="skill-4-pokemon-2"></button>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="main.js"></script>
+
+</html>
